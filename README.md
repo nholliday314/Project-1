@@ -1,7 +1,7 @@
 # Project-1
 Browser-based Game
 
-# Guess the Word
+# ALIEN ABDUCTION - Guess the Word
 
 ## About the Game
 "Guess the Word" is a word puzzle game in which players attempt to identify a hidden word with a limited number of guesses. It's a fun and engaging game that can be played in various formats, including on paper, as a board game, and in this case as a browser-based game.
