@@ -26,3 +26,48 @@ body {
     border-radius: 10px;
 
 }    
+
+.alien-ship img {
+    max-width: 300px;
+}
+
+.alien-ship h1 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.word-display {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-display .letter {
+    width: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #000;
+}
+
+.word-display .letter.guessed {
+    border-color: transparent;
+    margin: -40px 0 20px;
+}
+
+.game.box .keyboard{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.keyboard button {
+    width: calc(100% / 10 - 5px);
+    justify-content: center;
+}

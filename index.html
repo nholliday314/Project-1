@@ -10,12 +10,23 @@
 <body>
     <div class="container">
         <div class="alien-ship">
-            <h1>ABDUCTION - GUESS THE WORD</h1>
-            <img src="https://ctl.s6img.com/society6/img/ptFeapiiB70Yp-QPLzf42szPkBs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/cc76cd7a092e461d8d97422385b1b20e/~~/alien-abduction-safety-warning-sign-prints.jpg" alt="">
+            <h1>ALIEN ABDUCTION <br>GUESS THE WORD</br></h1>
+            <img src="https://ctl.s6img.com/society6/img/ptFeapiiB70Yp-QPLzf42szPkBs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/cc76cd7a092e461d8d97422385b1b20e/~~/alien-abduction-safety-warning-sign-prints.jpg" alt="" 
+            width="300" 
+            height="300"
+            />
+            <h4 class="incorrect-guesses-counter">
+                Incorrect Guesses:
+                <b>0 / 5</b>
+            </h4>
+            <h4 class="incorrect-guesses">
+                Incorrect Letters Guessed:
+                <b>ABC</b>
+            </h4>
         </div>
         <div class="game-box">
             <ul class="word-display">
-                <li class="letter"></li>
+                <li class="letter guessed">a</li>
                 <li class="letter"></li>
                 <li class="letter"></li>
                 <li class="letter"></li>
@@ -23,10 +34,6 @@
                 <li class="letter"></li>
                 <li class="letter"></li>
             </ul>
-            <h4 class="incorrect-guesses-counter">
-                Incorrect guesses:
-                <b>0 / 5</b>
-            </h4>
             <div class="keyboard">
                 <button onclick="handleButtonClick('A')">A</button>
                 <button onclick="handleButtonClick('B')">B</button>
