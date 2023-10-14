@@ -1,25 +1,28 @@
 # Project-1
 Browser-based Game
 
-# Game name 
+# Guess the Word
 
 ## About the Game
-This is a 2D puzzle game drawing from 1010! and Tetris. The point of the game is to fill a grid with an assortment of shapes to complete the entire row or column. Once rows or columns are filled, the blocks in that respective row or column are removed adding to a running point total. The game is considered over once there are no more available moves to be made with the allotted shapes.
+"Guess the Word" is a word puzzle game in which players attempt to identify a hidden word with a limited number of guesses. It's a fun and engaging game that can be played in various formats, including on paper, as a board game, and in this case as a browser-based game.
 
 ## Tech Being Used
-* HTML/CSS
-* Javascript/vanilla JavaScript
-* PhaserJS 2??
+* HTML
+* CSS
+* Javascript
 
 ## MVP Checklist
-* Have Start/Restart button
-* Create 9x9 game grid
-* Render 4 "random" shapes for gameplay from a collection of predetermined shapes
-* Keep track of running point total
-* Ha
-
-
+* Have a PLAY button
+* Include an INFO section for rules on how to play
+* Create 4 letter word grid
+* Populate letters in the word grid when guessed correctly
+* Track letters incorrectly guessed
+* Track the count of incorrect guesses
+* Have a "Game Over" popup when 4 incorrect guesses are made
+* Render on-screen keyboard
+  
 ## Stretch Goals
-* Add animation when rows/columns are filled
-* Configure multiple levels with the grid being filled with preselected shapes the player has to work around
-* Stoe previous high score
+* Create 3 levels of difficulty based on the length of the word
+* Create 4 categories of words to choose from
+* Create animation visualizing how many guesses are left
+  
