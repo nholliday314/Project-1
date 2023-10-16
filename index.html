@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABDUCTION - "GUESS THE WORD"</title>
     <link rel="stylesheet" href="main.css">
+    <script defer src="js/main.js"></script>
 
 </head>
 <body>
@@ -21,47 +22,15 @@
             </h4>
             <h4 class="incorrect-guesses">
                 Incorrect Letters Guessed:
-                <b>ABC</b>
+                <b class="incorrect-letters"></b>
             </h4>
         </div>
         <div class="game-box">
-            <ul class="word-display">
-                <li class="letter guessed">a</li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-            </ul>
-            <div class="keyboard">
-                <button onclick="handleButtonClick('A')">A</button>
-                <button onclick="handleButtonClick('B')">B</button>
-                <button onclick="handleButtonClick('C')">C</button>
-                <button onclick="handleButtonClick('D')">D</button>
-                <button onclick="handleButtonClick('E')">E</button>
-                <button onclick="handleButtonClick('F')">F</button>
-                <button onclick="handleButtonClick('G')">G</button>
-                <button onclick="handleButtonClick('H')">H</button>
-                <button onclick="handleButtonClick('I')">I</button>
-                <button onclick="handleButtonClick('J')">J</button>
-                <button onclick="handleButtonClick('K')">K</button>
-                <button onclick="handleButtonClick('L')">L</button>
-                <button onclick="handleButtonClick('M')">M</button>
-                <button onclick="handleButtonClick('N')">N</button>
-                <button onclick="handleButtonClick('O')">O</button>
-                <button onclick="handleButtonClick('P')">P</button>
-                <button onclick="handleButtonClick('Q')">Q</button>
-                <button onclick="handleButtonClick('R')">R</button>
-                <button onclick="handleButtonClick('S')">S</button>
-                <button onclick="handleButtonClick('T')">T</button>
-                <button onclick="handleButtonClick('U')">U</button>
-                <button onclick="handleButtonClick('V')">V</button>
-                <button onclick="handleButtonClick('W')">W</button>
-                <button onclick="handleButtonClick('X')">X</button>
-                <button onclick="handleButtonClick('Y')">Y</button>
-                <button onclick="handleButtonClick('Z')">Z</button>
-              </div>
+            <ul class="word-display"></ul>
+            <h4 class="instructions">
+                Guess the word!
+            </h4>
+            <div class="keyboard"></div>
         </div>
     </div>
 </body>
