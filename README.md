@@ -14,6 +14,17 @@ Browser-based Game
 * CSS
 * Javascript
 
+## Getting Started
+To begin playing, choose and click a letter on the screen to begin playing. If correct, the letter(s) will populate. If incorrect, those guesses will populate in the "incorrect letters guessed" section. You have a total of 5 incorrect guesses. Good luck!
+
+
+## Next Steps
+* Create a physical pop-up window for win/lose
+* Fix a bug for when the user chooses the same letter more than once
+* Add a feature to allow users to type guesses on the keyboard
+* Complete the stretch goal of creating the visualization of how many wrong guesses have been made
+* Complete the stretch goal of allowing the user to choose a level and category to play by creating a dictionary of words including the category and level of difficulty of that word
+
 ## MVP Checklist
 * Have a PLAY button
 * Include an INFO section for rules on how to play
