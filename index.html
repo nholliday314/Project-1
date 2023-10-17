@@ -9,18 +9,19 @@
 
 </head>
 <body>
-    <div class="pop-up">
+    <div class="pop-up" id="pop-up">
         <div class="content">
             <img src="https://i5.walmartimages.com/asr/b561ba40-2eb9-45c8-80a6-ce402aa794c2.60dc2f3bf4329e6151516bb9ca6c6521.jpeg" alt="gif"
             width="150" 
             height="150">
             <h4>Game Over!</h4>
             <p>The correct word was: <b>rainbow</b></p>
-            <button class="play-again">Play Again</button>
+            <button class="play-again" onclick="closePopup()">Play Again</button>
         </div>
     </div>
     <div class="container">
         <div class="alien-ship">
+            <button onClick="window.location.reload();">PLAY</button>
             <h1>ALIEN ABDUCTION <br>GUESS THE WORD</br></h1>
             <img src="https://ctl.s6img.com/society6/img/ptFeapiiB70Yp-QPLzf42szPkBs/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/cc76cd7a092e461d8d97422385b1b20e/~~/alien-abduction-safety-warning-sign-prints.jpg" alt="" 
             width="300" 
@@ -36,6 +37,7 @@
             </h4>
         </div>
         <div class="game-box">
+            
             <ul class="word-display"></ul>
             <h4 class="instructions">
                 Guess the word!

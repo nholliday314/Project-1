@@ -24,7 +24,6 @@ body {
     align-items: flex-end;
     padding: 60px 40px;
     border-radius: 10px;
-
 }    
 
 .alien-ship img {
@@ -69,7 +68,6 @@ body {
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
-   
 }
 
 .keyboard button {
@@ -89,15 +87,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    pointer-events: none;
+    opacity: ;
+    pointer-events: ;
     z-index: 999;
-    /* z-index: 9999;
-    padding: 0 10px;
-    transition: opacity 0.4s ease; */ 
+    visibility: hidden;
+    
 }
 
-.pop-up .content {
+/* .pop-up .content {
     padding: 30px;
     max-width: 420px;
     width: 100%;
@@ -125,7 +122,6 @@ body {
     margin-bottom: 20px;
 }
 
-.pop-up.show {
-    opacity: 0;
-    pointer-events: auto;
-}
+.open-popup {
+    visibility: visible;
+} */
