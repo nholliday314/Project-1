@@ -5,7 +5,7 @@ Browser-based Game
 [PLAY GAME HERE](http://127.0.0.1:5500/index.html)
 
 ## Gameplay
-![plot](Gameplay Screenshot.png)
+![plot]([Gameplay Screenshot.png](https://github.com/nholliday314/Project-1/blob/main/Gameplay%20Screenshot.png?raw=true))
 
 ## About the Game
 "Guess the Word" is a word puzzle game in which players attempt to identify a hidden word with a limited number of guesses. It's a fun and engaging game that can be played in various formats, including on paper, as a board game, and in this case as a browser-based game.
