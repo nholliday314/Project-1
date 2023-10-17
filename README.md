@@ -15,8 +15,7 @@ Browser-based Game
 * Javascript
 
 ## Getting Started
-To begin playing, choose and click a letter on the screen to begin playing. If correct, the letter(s) will populate. If incorrect, those guesses will populate in the "incorrect letters guessed" section. You have a total of 5 incorrect guesses. Good luck!
-
+To begin playing, choose and click a letter on the screen. If correct, the letter(s) will populate. If incorrect, those guesses will populate in the "Incorrect letters guessed" section. You can make at most 5 mistakes. Good luck!
 
 ## Next Steps
 * Create a physical pop-up window for win/lose
