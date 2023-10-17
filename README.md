@@ -4,7 +4,6 @@ Browser-based Game
 # ALIEN ABDUCTION - Guess the Word
 [PLAY GAME HERE](http://127.0.0.1:5500/index.html)
 
-## Gameplay
 ![Screenshot of gameplay](https://github.com/nholliday314/Project-1/blob/main/Gameplay%20Screenshot.png?raw=true)
 
 ## About the Game
